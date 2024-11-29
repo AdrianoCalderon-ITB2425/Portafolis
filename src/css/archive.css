@@ -1,0 +1,146 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* LAYOUT BUTTONS */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.layout-toggle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #112240;
+}
+
+.toggle-btn.active {
+    background-color: #112240;
+    color: white;
+    border-color: #007bff;
+}
+/*  FORMATED AND COLORED TABLES */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #112240;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-header span {
+    font-size: 2.4rem;
+}
+
+.card-header ul{
+    list-style-type: none;
+    display: flex;            /* Use flexbox to lay items side by side */
+    justify-content:flex-start  /* Center items horizontally */   /* Remove bullets */
+    padding: 0;               /* Remove default padding */
+    margin: 0;                /* Remove default margin */
+}
+.card-header ul li {
+    margin: 0 10px;           /* Add some horizontal spacing between items */
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+    color: #e6f1ff;
+}
+
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.tags {
+    font-size: 0.8rem;
+    color: #8892b0;
+    margin-top: 10px;
+}
+
+/* TABLE PLAIN WHITE CSS */
+.table-container {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #A8B2D1; 
+}
+
+th, td {
+    border: 1px solid #233554;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #112240;
+    font-family: "IBM Plex Mono", serif !important;
+}
+
+.hidden {
+    display: none;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #A8B2D1;
+    margin: 10px 0;
+}
+
+.project-title2{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ccd6f6;+
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/archive.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <script src="https://kit.fontawesome.com/2f317d2498.js" crossorigin="anonymous"></script>
+    <title>archive</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="contact.html"><span class="nav-number">04. </span>Contact</a></li>
+                <li><a href="archive.html"><span class="nav-number">03. </span>archive</a></li>
+                <li><a href="projects.html"><span class="nav-number">02. </span>Projects</a></li>
+                <li><a href="about.html"><span class="nav-number">01. </span>About</a></li>
+                <li id="home-icon"><a href="index.html"><img id="logo" src="src/assets/images/profile.png" alt="home"></a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="container">
+            <h2 class="project-title2">More Projects</h2>
+            <hr>
+            <br>
+            <div class="layout-toggle">
+                <button class="toggle-btn active" id="cardViewBtn"><i class="fa-solid fa-grip" style="color: #a8b2d1;"></i></button>
+                <button class="toggle-btn" id="tableViewBtn"><i class="fa-solid fa-list" style="color: #a8b2d1;"></i></button>
+            </div>
+            <div class="grid" id="cardView">
+                <div class="card">
+                    <div class="card-header">
+                        <span><i class="fa-regular fa-folder fa-sm" style="color: #a8b2d1;"></i></span>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Integrating Algolia Search with WordPress Multisite</h3>
+                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia.</p>
+                    <div class="tags">Algolia WordPress PHP</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span><i class="fa-regular fa-folder fa-sm" style="color: #a8b2d1;"></i></span>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Time to Have More Fun</h3>
+                    <p>A single page web app for helping me choose where to travel, built with Next.js, Firebase, and Tailwind CSS.</p>
+                    <div class="tags">Next.js Tailwind CSS Firebase</div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <span><i class="fa-regular fa-folder fa-sm" style="color: #a8b2d1;"></i></span>
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                            <li><a href=""><i class="fa-solid fa-arrow-up-right-from-square fa-lg" style="color: #a8b2d1;"></i></a></li>
+                        </ul>
+                    </div>
+                    <h3>Building a Headless Mobile App CMS From Scratch</h3>
+                    <p>Find out how we built a custom headless CMS with Node, Express, and Firebase for a project at Upstatement.</p>
+                    <div class="tags">Node Express Firebase Vue</div>
+                </div>
+                <!-- Add more cards here -->
+            </div>
+        </div>
+            <!-- Table View -->
+            <div class="table-container hidden" id="tableView">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                            <th>Technologies</th>
+                            <th>Links</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>vu-mi</td>
+                            <td>Personal</td>
+                            <td>A serverless app enabling visitor count badges for GitHub profiles.</td>
+                            <td>Python AWS DynamoDB SQS</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td>mjurl</td>
+                            <td>Personal</td>
+                            <td>A simple URL shortening service implemented in Go.</td>
+                            <td>Go PostgreSQL</td>
+                            <td><a href="#">GitHub</a></td>
+                        </tr>
+
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+            <br>
+        </div>
+        <footer>
+            <div>
+                <section>
+                    <span>SOCIAL LINKS</span>
+                    <ul class="centered-list">
+                        <li><a href=""><img class="social-icons" src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                        <li><a href=""><img class="social-icons"src="src/assets/icons/LinkedIn-Logos/LI-In-Bug.png" alt=""></a></li>
+                    </ul>
+                </section>
+                <section>
+                    <span>IMPORTANT LINKS</span>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="projects.html">projects</a></li>
+                        <li><a href="archive.html">archive</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="">download my CV</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <span>CONTACT INFO</span>
+                    <ul>
+                        <li>adriano.calderon.7e8@itb.cat</li>
+                        <li>+34 684 16 98 08</li>
+                        <li>Horta, Barcelona</li>
+                    </ul>
+                </section>
+            </div>
+            <div>
+                <p class="copyright-text">Copyright 2024 Adriano Calderón. All rights Reserved</p>
+            </div>
+        </footer>
+<script src="src/js/archive.js"></script>
+</body>
+</html>

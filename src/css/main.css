@@ -1,0 +1,201 @@
+
+/* CSS HEX 
+General Backgroud: 0a192fff
+Title WHite: ccd6f6
+Title Grey: 8892b0
+Text Dark green: 22585eff
+Text Neon Green: 64ffda
+Nav menu color: c7d1f1ff
+
+*/
+
+/* Main is gonna have: Body, Nav menu, footer, */
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/*-------------------------------------------------------------------------------------------------------------
+MAIN BODY CONTENT*/
+
+body{
+    background-color: #0a192fff;
+    color: #8892b0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------- */
+/*TYPES OF TEXTS FOR FORMATTING*/
+
+.title1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ccd6f6;
+}
+
+.title2{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: normal;
+    color: #8892b0;
+}
+
+.mono-text{
+    font-family: "IBM Plex Mono", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64ffda;
+}
+
+.global-text{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #8892b0;
+}
+
+.copyright-text{
+    font-family: "IBM Plex Mono", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color: #A8B2D1;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+NAV MENU STYLING*/
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    float:right;
+}
+
+.navbar ul li a{
+    display: block;
+    padding: 15px;
+    margin: 30px;
+    text-decoration: none;
+    color: #c7d1f1ff;
+    font-family: "IBM Plex Mono", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar ul li a:hover{
+    color: #64ffda;
+}
+
+#profilepic{
+
+    height: 300px;
+    width: 300px;
+}
+
+.nav-number{
+    color: #64ffda;
+}
+
+#home-icon{
+    float: left;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------
+FOOTER STYLING*/
+
+footer {
+    background-color: #081628; /* Match the dark blue background theme */
+    color: #718096; /* Light text color for readability */
+    padding: 20px 40px; /* Add padding for spacing */
+    font-size: 0.9rem; /* Slightly smaller text size */
+    font-family: "IBM Plex Mono", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: auto;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    justify-content: space-between; /* Space out sections evenly */
+    gap: 20px;
+}
+
+footer section {
+    flex: 1; /* Allow sections to adapt their size */
+    min-width: 200px; /* Prevent collapsing on smaller screens */
+}
+
+footer section span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    /* color: #78dcca; Accent color for section titles */
+}
+
+footer ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #718096; /*Light link color*/ /*Light link color*/
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #78dcca; /* Match accent color for hover effect */
+}
+
+.social-icons {
+    width: 30px; /* Set size for icons */
+    height: 30px;
+}
+
+footer .copyright-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #718096; /* Dimmer text for copyright */
+    border-top: 1px solid #2d3748; /* Subtle divider */
+    padding-top: 10px;
+}
+
+.centered-list {
+    display: flex;            /* Use flexbox to lay items side by side */
+    justify-content:flex-start  /* Center items horizontally */
+    list-style-type: none;    /* Remove bullets */
+    padding: 0;               /* Remove default padding */
+    margin: 0;                /* Remove default margin */
+}
+
+.centered-list li {
+    margin: 0 10px;           /* Add some horizontal spacing between items */
+}

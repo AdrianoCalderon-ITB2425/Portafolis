@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="contact.html"><span class="nav-number">04. </span>Contact</a></li>
+                <li><a href="archive.html"><span class="nav-number">03. </span>archive</a></li>
+                <li><a href="projects.html"><span class="nav-number">02. </span>Projects</a></li>
+                <li><a href="about.html"><span class="nav-number">01. </span>About</a></li>
+                <li id="home-icon"><a href="index.html"><img id="logo" src="src/assets/images/profile.png" alt="home"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="text-section">
+                <div class="text-content">
+                    <h1>Get in Touch</h1>
+                    <p>Whether it's a job opportunity, an invite to coffee, or feedback on my portfolio, my inbox is open!</p>
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="form-container">
+                    <form class="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <section>
+                <span>SOCIAL LINKS</span>
+                <ul class="centered-list">
+                    <li><a href=""><img class="social-icons" src="src/assets/icons/github-mark/github-mark-white.png" alt=""></a></li>
+                    <li><a href=""><img class="social-icons"src="src/assets/icons/LinkedIn-Logos/LI-In-Bug.png" alt=""></a></li>
+                </ul>
+            </section>
+            <section>
+                <span>IMPORTANT LINKS</span>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="archive.html">archive</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="">download my CV</a></li>
+                </ul>
+            </section>
+            <section>
+                <span>CONTACT INFO</span>
+                <ul>
+                    <li>adriano.calderon.7e8@itb.cat</li>
+                    <li>+34 684 16 98 08</li>
+                    <li>Horta, Barcelona</li>
+                </ul>
+            </section>
+        </div>
+        <div>
+            <p class="copyright-text">Copyright 2024 Adriano Calderón. All rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

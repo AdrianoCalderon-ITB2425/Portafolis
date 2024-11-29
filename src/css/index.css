@@ -1,0 +1,40 @@
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+INDEX MAIN STYLING */
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    height: 300px;
+    width: 700px;
+    margin: 50px;
+}
+
+.CV-button{
+    font-family: "IBM Plex Mono", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64ffda;
+    background-color: #0a192fff;
+    padding: 10px;
+    border-color: #64ffda;
+    border-style:solid;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+}
+
+.CV-button:hover{
+    background-color: #64ffda;
+    color: #0a192fff;
+    border-color: #0a192fff;
+}
